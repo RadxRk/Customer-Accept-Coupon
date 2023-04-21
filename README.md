@@ -10,6 +10,9 @@
 - [Loading Data](https://github.com/RadxRk/Customer-Accept-Coupon#missing-and-duplicated-data)
 - [Investigate the dataset](https://github.com/RadxRk/Customer-Accept-Coupon#Investigate-the-dataset)
 - [Data Transformation](https://github.com/RadxRk/Customer-Accept-Coupon#Data-Transformation)
+- [Preliminary Analysis](https://github.com/RadxRk/Customer-Accept-Coupon#Preliminary-Analysis)
+- [Independent Investigation] (https://github.com/RadxRk/Customer-Accept-Coupon#Independent Investigation)
+
 
 <br> 
 
@@ -175,7 +178,7 @@ coupons_data['drive_to_coupon'] = coupons_data[['toCoupon_GEQ5min','toCoupon_GEQ
 coupons_data=coupons_data.drop(['toCoupon_GEQ5min','toCoupon_GEQ15min','toCoupon_GEQ25min'],axis=1)
 ``` 
 
-
+### <p style="font-weight:bold">Preliminary Analysis</p> ###
   
 
  
