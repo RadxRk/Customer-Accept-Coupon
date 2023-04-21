@@ -11,7 +11,8 @@
 - [Investigate the dataset](https://github.com/RadxRk/Customer-Accept-Coupon#Investigate-the-dataset)
 - [Data Transformation](https://github.com/RadxRk/Customer-Accept-Coupon#Data-Transformation)
 - [Preliminary Analysis](https://github.com/RadxRk/Customer-Accept-Coupon#Preliminary-Analysis)
-- [Independent Investigation] (https://github.com/RadxRk/Customer-Accept-Coupon#Independent Investigation)
+- [Independent Investigation](https://github.com/RadxRk/Customer-Accept-Coupon#Independent-Investigation)
+- [Conclusion](https://github.com/RadxRk/Customer-Accept-Coupon#Conclusion)
 
 
 <br> 
@@ -179,6 +180,26 @@ coupons_data=coupons_data.drop(['toCoupon_GEQ5min','toCoupon_GEQ15min','toCoupon
 ``` 
 
 ### <p style="font-weight:bold">Preliminary Analysis</p> ###
+
+- #### What proportion of the total observations chose to accept the coupon?
+  <div style="text-align:center">
+    <img src="images/4.1_Total_Observation.png" width=200 height=200>
+  </div>
+  <li> The overall accepectance rate for this dataset is high compared to the total number of rows
+       Accepted percentage 56.75%
+       Not Accepted 43.24%
+   </li>
+ - #### Use a bar plot to visualize the coupon column
+  <div style="text-align:center">
+    <img src="images/5_Distribution_coupon.png" width=600 height=500>
+  </div>
+    <li>  From the graph above there is a high representation of coupon for coffee house.Restaurant(20-50) arrtibute has the least of the coupons. Data indicates that expensive restaurants doesn't give out coupons in this dataset.  </li>
+
+### <p style="font-weight:bold">Independent Analysis</p> ###
+
+### <p style="font-weight:bold">Conclusion</p> ###
+
+
   
 
  
