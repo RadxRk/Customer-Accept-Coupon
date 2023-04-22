@@ -194,9 +194,26 @@ coupons_data=coupons_data.drop(['toCoupon_GEQ5min','toCoupon_GEQ15min','toCoupon
     <img src="images/5_Distribution_coupon.png" width=600 height=500>
   </div>
     <li>  From the graph above there is a high representation of coupon for coffee house.Restaurant(20-50) arrtibute has the least of the coupons. Data indicates that expensive restaurants doesn't give out coupons in this dataset.  </li>
+    
+ - #### Use a bar plot to visualize the coupon column based on the target variable acceptance or non acceptance
+   <div style="text-align:center">
+    <img src="images/Distribution_of_Coupon_acceptance.png" width=600 height=500>
+  </div>
+<li> From the graph above we could drive that there is high non acceptance of coupons in the bar and higher price restaturants(Restaurant(20-50)). On the other hand there is high acceptance among Restaurant(<20) </li>
 
-### <p style="font-weight:bold">Independent Analysis</p> ###
 
+ - #### Compare the acceptance rates between those drivers who:
+       go to bars more than once a month, had passengers that were not a kid, and were not widowed OR
+       go to bars more than once a month and are under the age of 30 OR
+       go to cheap restaurants more than 4 times a month and income is less than 50K.
+ <div style="text-align:center">
+    <img src="images/6_Percentage_of_Coupons.png" width=600 height=500>
+  </div>
+  <li> Bar coupon is not the popular as other coupons. It has only 41% accepetance rate  </li>
+  <li> Acceptance rate of those who went more than 3 times a month is 7% </li>
+ 
+
+### <p style="font-weight:bold">Independent Analysis</p> ###  
 ### <p style="font-weight:bold">Conclusion</p> ###
 
 
