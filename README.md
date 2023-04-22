@@ -207,16 +207,36 @@ coupons_data=coupons_data.drop(['toCoupon_GEQ5min','toCoupon_GEQ15min','toCoupon
        go to bars more than once a month and are under the age of 30 OR
        go to cheap restaurants more than 4 times a month and income is less than 50K.
  <div style="text-align:center">
-    <img src="images/6_Percentage_of_Coupons.png" width=600 height=500>
+    <img src="images/6_Percentage_of_Coupons.png" width=600 height=300>
   </div>
   <li> Bar coupon is not the popular as other coupons. It has only 41% accepetance rate  </li>
   <li> Acceptance rate of those who went more than 3 times a month is 7% </li>
  
 
 ### <p style="font-weight:bold">Independent Analysis</p> ###  
+ - #### Do people with more income prefer expensive restraunts(Restaurant20To50) with bar coupon?
+  <div style="text-align:center">
+    <img src="images/expensive restraunts(Restaurant20To50).png" width=600 height=500>
+  </div>
+  <li>  Regardless of income group, everyone visited expensive restaurants( Restaurant20To50) at least once. </li>
+  <li>  People with incomerange 37K-49K visited expensive restaurants( Restaurant20To50) with bar coupons </li>
+  
+  Education_Analysis.png
+ - #### Does education attribute have any impact on the coupon accepectance??   
+   <div style="text-align:center">
+    <img src="images/Education_Analysis.png" width=600 height=500>
+  </div>
+  <li>  We have high number of Bachelors and no degree in the source data, which can cause imbalance in the model </li>
+  <li>  Users with no college & highschool have coupons acceptance rate </li>
+  
 ### <p style="font-weight:bold">Conclusion</p> ###
 
-
+<li>  Dataset is not large enough to do any deeper analysis. The total count is  12610 after the duplicates are removed </li>
+<li>  Dataset is has high acceptance rate and can also cause imbalance in the analysis </li>
+<li>  Coffee House and Restaurant less than 20$ have acceptance and the coupons are working well for that group </li>
+<li>  Bar's and Restaurant above 50$ have least acceptance </li>
+<li>  Coupons are most acceptanced when users are trave not urgent places</li>
+<li>  There are high acceptance among college and no college users </li>
   
 
  
